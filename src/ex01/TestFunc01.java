@@ -58,8 +58,9 @@ public class TestFunc01 {
 		eng					=	Integer.parseInt(li[3].trim());	//	80
 		mat					=	Integer.parseInt(li[4].trim());	//	90
 		
-	} // input end
+	} // input() end
 
+	//process
 	private static void process() {		
 		System.out.println("process");
 //								  0    1    2    3    4    5    6    7    8    9    10
@@ -74,6 +75,7 @@ public class TestFunc01 {
 		
 	} // process end
 
+	//output
 	private static void ouput() {
 		System.out.println("output");
 		System.out.println("번호 이름 총점 평균 등급");
